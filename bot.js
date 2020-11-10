@@ -229,6 +229,21 @@ client.on('message', message => {
 
         // basic command
 
+        if(message.content.toLowerCase().includes('debug!time')){
+            var timp = gethour()
+            var minute = getminute()
+            var dayName = getday()
+            var daynumber = getdayno()
+            var helpembed = new MessageEmbed()
+            .setColor(0xff0000)
+            .setTitle('DEBUG')
+            .addField('hour', timp)
+            .addField('minute', minute)
+            .addField('dayname', dayName)
+            .addField('daynumber', daynumber)
+            message.channel.send(helpembed)
+        }
+
 
         if(message.content.toLowerCase().includes('!ajutor')){
             var helpembed = new MessageEmbed()
