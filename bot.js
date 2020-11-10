@@ -202,7 +202,7 @@ function getday(){
 
 function gethour(){
     var date = new Date();
-    var hour = date.getHours();
+    var hour = date.getHours() + 2;
     return hour
 }
 
