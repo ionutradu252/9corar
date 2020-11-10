@@ -35,7 +35,7 @@ setInterval(function getactive(){
         if(ora == 13){
             var min = getminute()
             if(min==45){
-                ora = orar.orar[nrzi-1].primaora
+                ora = orarul.normal[nrzi-1].primaora.toLowerCase()
                 for(i=0; i < links.linkuri.length; i++){
                     if(links.linkuri[i].name.includes(ora)){
                         istrue = 1
@@ -44,21 +44,21 @@ setInterval(function getactive(){
                     
                 }
                 if(istrue==1){
-                linkora = links.linkuri[nr].link
-                var helpembed = new MessageEmbed()
-                .setColor(0xff0000)
-                .setTitle('Ora Urmatoare')
-                .setDescription(ora)
-                .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
-                .setURL(linkora)
-                client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
-                }
+                    linkora = links.linkuri[nr].link
+                    var helpembed = new MessageEmbed()
+                    .setColor(0xff0000)
+                    .setTitle(ora)
+                    .setDescription("Ora Urmatoare")
+                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .setURL(linkora)
+                    client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
+                    }
             }
         }
         if(ora == 14){
             var min = getminute()
             if(min==35){
-                ora = orar.orar[nrzi-1].doiora
+                ora = orarul.normal[nrzi-1].doiora.toLowerCase()
                 for(i=0; i < links.linkuri.length-1; i++){
                     if(links.linkuri[i].name.includes(ora)){
                         istrue = 1
@@ -67,21 +67,21 @@ setInterval(function getactive(){
                     
                 }
                 if(istrue==1){
-                linkora = links.linkuri[nr].link
-                var helpembed = new MessageEmbed()
-                .setColor(0xff0000)
-                .setTitle('Ora Urmatoare')
-                .setDescription(ora)
-                .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
-                .setURL(linkora)
-                client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
-                }
+                    linkora = links.linkuri[nr].link
+                    var helpembed = new MessageEmbed()
+                    .setColor(0xff0000)
+                    .setTitle(ora)
+                    .setDescription("Ora Urmatoare")
+                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .setURL(linkora)
+                    client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
+                    }
             }
         }
         if(ora == 15){
             var min = getminute()
             if(min==25){
-                ora = orar.orar[nrzi-1].treiora
+                ora = orarul.normal[nrzi-1].treiora.toLowerCase()
                 for(i=0; i < links.linkuri.length; i++){
                     if(links.linkuri[i].name.includes(ora)){
                         istrue = 1
@@ -90,21 +90,21 @@ setInterval(function getactive(){
                     
                 }
                 if(istrue==1){
-                linkora = links.linkuri[nr].link
-                var helpembed = new MessageEmbed()
-                .setColor(0xff0000)
-                .setTitle('Ora Urmatoare')
-                .setDescription(ora)
-                .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
-                .setURL(linkora)
-                client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
-                }
+                    linkora = links.linkuri[nr].link
+                    var helpembed = new MessageEmbed()
+                    .setColor(0xff0000)
+                    .setTitle(ora)
+                    .setDescription("Ora Urmatoare")
+                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .setURL(linkora)
+                    client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
+                    }
             }
         }
         if(ora == 16){
             var min = getminute()
             if(min==15){
-                ora = orar.orar[nrzi-1].patruora
+                ora = orarul.normal[nrzi-1].patruora.toLowerCase()
                 for(i=0; i < links.linkuri.length; i++){
                     if(links.linkuri[i].name.includes(ora)){
                         istrue = 1
@@ -113,21 +113,21 @@ setInterval(function getactive(){
                     
                 }
                 if(istrue==1){
-                linkora = links.linkuri[nr].link
-                var helpembed = new MessageEmbed()
-                .setColor(0xff0000)
-                .setTitle('Ora Urmatoare')
-                .setDescription(ora)
-                .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
-                .setURL(linkora)
-                client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
-                }
+                    linkora = links.linkuri[nr].link
+                    var helpembed = new MessageEmbed()
+                    .setColor(0xff0000)
+                    .setTitle(ora)
+                    .setDescription("Ora Urmatoare")
+                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .setURL(linkora)
+                    client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
+                    }
             }
         }
         if(ora == 17){
             var min = getminute()
-            if(min==5){
-                ora = orar.orar[nrzi-1].cinciora
+            if(min==15){
+                ora = orarul.normal[nrzi-1].cinciora.toLowerCase()
                 for(i=0; i < links.linkuri.length; i++){
                     if(links.linkuri[i].name.includes(ora)){
                         istrue = 1
@@ -136,18 +136,18 @@ setInterval(function getactive(){
                     
                 }
                 if(istrue==1){
-                linkora = links.linkuri[nr].link
-                var helpembed = new MessageEmbed()
-                .setColor(0xff0000)
-                .setTitle('Ora Urmatoare')
-                .setDescription(ora)
-                .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
-                //.setURL(linkora)
-                client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
-                }
+                    linkora = links.linkuri[nr].link
+                    var helpembed = new MessageEmbed()
+                    .setColor(0xff0000)
+                    .setTitle(ora)
+                    .setDescription("Ora Urmatoare")
+                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .setURL(linkora)
+                    client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
+                    }
             }
             if(min==55){
-                ora = orar.orar[nrzi-1].saseora
+                ora = orarul.normal[nrzi-1].saseora.toLowerCase()
                 var istrue = 0
                 var nr = 0
                 for(i=0; i < links.linkuri.length; i++){
@@ -161,8 +161,8 @@ setInterval(function getactive(){
                 linkora = links.linkuri[nr].link
                 var helpembed = new MessageEmbed()
                 .setColor(0xff0000)
-                .setTitle('Ora Urmatoare')
-                .setDescription(ora)
+                .setTitle(ora)
+                .setDescription("Ora Urmatoare")
                 .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
                 .setURL(linkora)
                 client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
@@ -202,7 +202,7 @@ function getday(){
 
 function gethour(){
     var date = new Date();
-    var hour = date.getHours() + 2;
+    var hour = date.getHours();
     return hour
 }
 
@@ -294,7 +294,7 @@ client.on('message', message => {
             var no = 0
             var istrue = 0
             for(i=0; i < links.linkuri.length; i++){
-                if(materie.includes(links.linkuri[i].name)){
+                if(links.linkuri[i].name.includes(materie[1])){
                     istrue = 1
                     no = i
                 }
