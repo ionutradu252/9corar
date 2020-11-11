@@ -2,7 +2,7 @@
     "normal": [
             {"day":"luni", "primaora":"Mate", "doiora":"Biologie", "treiora":"Romana", "patruora":"Mate", "cinciora":"TIC", "saseora":"Romana"},
             {"day":"marti", "primaora":"Mate", "doiora":"Logica", "treiora":"Mate", "patruora":"Geografie", "cinciora":"Fizica", "saseora":"Chimie"},
-            {"day":"miercuri", "primaora":"Fizica", "doiora":"Romana", "treiora":"mdesen", "patruora":"Fizica", "cinciora":"Istorie", "saseora":"Religie"},
+            {"day":"miercuri", "primaora":"Fizica", "doiora":"Romana", "treiora":"Muzica", "patruora":"Fizica", "cinciora":"Istorie", "saseora":"Religie"},
             {"day":"joi", "primaora":"Romana", "doiora":"Franceza", "treiora":"Informatica", "patruora":"Engleza", "cinciora":"Franceza", "saseora":"Dirigentie"},
             {"day":"vineri", "primaora":"Mate", "doiora":"TIC", "treiora":"Sport", "patruora":"Biologie", "cinciora":"Chimie", "saseora":"Engleza"}
     ]
