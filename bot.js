@@ -323,7 +323,7 @@ client.on('message', message => {
             .setTitle("Orar")
             .addField("13:50 - 14:30", ora1)
             .addField("14:40 - 15:20", ora2)
-            .addField("15:50 - 16:10", ora3)
+            .addField("15:30 - 16:10", ora3)
             .addField("16:20 - 17:00", ora4)
             .addField("17:10 - 17:50", ora5)
             .addField("18:00 - 18:40", ora6)
