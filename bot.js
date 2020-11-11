@@ -49,7 +49,7 @@ setInterval(function getactive(){
                     .setColor(0xff0000)
                     .setTitle(ora)
                     .setDescription("Ora Urmatoare")
-                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .addField('||@everyone||', ':new_moon: ' + linkora + ' :new_moon:')
                     .setURL(linkora)
                     client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
                     }
@@ -72,7 +72,7 @@ setInterval(function getactive(){
                     .setColor(0xff0000)
                     .setTitle(ora)
                     .setDescription("Ora Urmatoare")
-                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .addField('||@everyone||', ':new_moon: ' + linkora + ' :new_moon:')
                     .setURL(linkora)
                     client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
                     }
@@ -95,7 +95,7 @@ setInterval(function getactive(){
                     .setColor(0xff0000)
                     .setTitle(ora)
                     .setDescription("Ora Urmatoare")
-                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .addField('||@everyone||', ':new_moon: ' + linkora + ' :new_moon:')
                     .setURL(linkora)
                     client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
                     }
@@ -118,7 +118,7 @@ setInterval(function getactive(){
                     .setColor(0xff0000)
                     .setTitle(ora)
                     .setDescription("Ora Urmatoare")
-                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .addField('||@everyone||', ':new_moon: ' + linkora + ' :new_moon:')
                     .setURL(linkora)
                     client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
                     }
@@ -141,7 +141,7 @@ setInterval(function getactive(){
                     .setColor(0xff0000)
                     .setTitle(ora)
                     .setDescription("Ora Urmatoare")
-                    .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                    .addField('||@everyone||', ':new_moon: ' + linkora + ' :new_moon:')
                     .setURL(linkora)
                     client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
                     }
@@ -163,7 +163,7 @@ setInterval(function getactive(){
                 .setColor(0xff0000)
                 .setTitle(ora)
                 .setDescription("Ora Urmatoare")
-                .addField('♦', ':new_moon: ' + linkora + ' :new_moon:')
+                .addField('||@everyone||', ':new_moon: ' + linkora + ' :new_moon:')
                 .setURL(linkora)
                 client.channels.cache.find(channel => channel.name === '📖scoala-online📖').send(helpembed)
                 }
