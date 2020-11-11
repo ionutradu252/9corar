@@ -126,7 +126,7 @@ setInterval(function getactive(){
         }
         if(ora == 17){
             var min = getminute()
-            if(min==15){
+            if(min==5){
                 ora = orarul.normal[nrzi-1].cinciora.toLowerCase()
                 for(i=0; i < links.linkuri.length; i++){
                     if(links.linkuri[i].name.includes(ora)){
