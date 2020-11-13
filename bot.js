@@ -204,7 +204,7 @@ function gethour(){
     var nrzi = getdayno()
     var date = new Date();
     if(nrzi = 5){
-        var hour = date.getHours() + 1
+        var hour = date.getHours() + 3
     }else{
         var hour = date.getHours() + 2
     }
