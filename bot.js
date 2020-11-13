@@ -201,8 +201,13 @@ function getday(){
 }
 
 function gethour(){
+    var nrzi = getdayno()
     var date = new Date();
-    var hour = date.getHours() + 2
+    if(nrzi = 5){
+        var hour = date.getHours() + 1
+    }else{
+        var hour = date.getHours() + 2
+    }
     return hour
 }
 
