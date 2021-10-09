@@ -737,9 +737,9 @@ client.on('message', message => {
 
         if(message.content.includes('sfafsaffsfsacafga')){
             var answers = [
-                "bn tu?",
-                "eu bine",
-                "sunt cam suparat"
+                "a",
+                "b",
+                "c"
               ]
               
               var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
